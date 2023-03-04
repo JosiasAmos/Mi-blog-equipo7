@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+html {
+    background: #B4E4FF;
+    scroll-behavior: smooth;
+    font-family: 'Shantell Sans', cursive;
+}
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration-color: chocolate;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+.ito {
+    font-size: xx-large;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.logo{
+  object-position: left 100% bottom 25%;
+}
+
+h1{
+    font-size: 70px;
+    letter-spacing: normal;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.menu{
+    
+    background: #e8e8e8;
+    list-style: none;
+    padding: 0;
+    background-color: #7286D3;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #8EA7E9;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.tabla{
+    font-size: 1.8rem;
+    margin: auto;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.video{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+
